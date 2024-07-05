@@ -78,6 +78,12 @@ public class Hand : MonoBehaviour
             InventoryManager.instance.AddItemInInventory(blockHit.GetComponent<Block>()._id);
 
             blockHit.GetComponentInParent<Chunk>()._blocks.Remove(blockHit);
+
+            if(blockHit.GetComponent<Block>()._id == InventoryManager.instance._takenItemId)
+            {
+                InventoryManager.instance.UpdateHotbar(blockHit.GetComponent<Block>()._id);
+            }
+
             Destroy(blockHit);
         }
     }

@@ -1,7 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using static InventoryManager;
 
 public enum InventoryTypes
 {
@@ -15,11 +18,19 @@ public enum InventoryTypes
 
 public class InventoryManager : MonoBehaviour
 {
-    public GameObject _inventoryPanel, _itemsContent;
+    [Header("Inventory")]
     public GameObject _inventoryTilePrefab;
+    public GameObject _inventoryPanel, _itemsContent;
     public ItemsRegistery _itemRegistery;
 
     public List<I_Content> I_content = new List<I_Content> ();
+
+    [Header("Hotbar")]
+    [SerializeField] GameObject _hotbarPanel;
+    [SerializeField] Image _hotbarImage;
+    [SerializeField] TMP_Text _hotbarQuantity;
+    [SerializeField] TMP_Text _hotbarName;
+    public int _takenItemId;
 
     public static InventoryManager instance;
     private void Awake()
@@ -34,6 +45,11 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
+        if (_hotbarPanel != null)
+        {
+            _hotbarPanel.SetActive(false);
+        }
+
         _itemsContent.transform.localPosition = new Vector3(0, 0, 0);
         _inventoryPanel.SetActive(false);
     }
@@ -97,6 +113,26 @@ public class InventoryManager : MonoBehaviour
         CreateNewTile(TakeItemData(id), id, 1);
     }
 
+    public void RemoveItemInInventory(int id)
+    {
+        /*
+        List<I_Content> contentQuantity = new List<I_Content>();
+
+        foreach(I_Content content in I_content)
+        {
+            if(content._id == id)
+            {
+                contentQuantity.Add(content);
+            }
+        }
+
+        if(contentQuantity.Count > 0)
+        {
+            
+        }
+        */
+    }
+
     void CreateNewTile(ItemData itemData, int id, int quantity)
     {
         GameObject tile = Instantiate(_inventoryTilePrefab);
@@ -116,6 +152,8 @@ public class InventoryManager : MonoBehaviour
         tileContent._isFull = false;
 
         I_content.Add(tileContent);
+
+        tile.GetComponent<Button>().onClick.AddListener(() => OnItemTile(id));
     }
 
     private ItemData TakeItemData(int id)
@@ -129,6 +167,41 @@ public class InventoryManager : MonoBehaviour
         }
 
         return null;
+    }
+
+    int ItemsQuantity(int id)
+    {
+        int totalItemCount = 0;
+
+        foreach (var item in I_content)
+        {
+            if (item._id == id && !item._isFull)
+            {
+                totalItemCount += item._quantity;
+            }
+        }
+
+        return totalItemCount;
+    }
+
+    void OnItemTile(int id)
+    {
+        UpdateHotbar(id);
+
+        //Debug.Log(_takenItemId + " : " + ItemsQuantity(_takenItemId));
+    }
+
+    public void UpdateHotbar(int id)
+    {
+        _takenItemId = id;
+
+        ItemData itemData = TakeItemData(id);
+
+        _hotbarPanel.SetActive(true);
+
+        _hotbarImage.sprite = itemData._sprite;
+        _hotbarQuantity.text = ItemsQuantity(_takenItemId).ToString();
+        _hotbarName.text = itemData._name;
     }
 
     [Serializable]

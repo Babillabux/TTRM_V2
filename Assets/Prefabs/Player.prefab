@@ -105,12 +105,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da5bbe74f212ec45bc751f4caed85af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _blockId: 0
   _reach: 4
   _layerMask:
     serializedVersion: 2
     m_Bits: 64
-  _hitColliders: []
 --- !u!1 &7814600631822957351
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   sprintSpeed: 8
-  jumpHeight: 2
+  jumpHeight: 1.25
   gravity: 20
   fallSpeedMultiplier: 1.25
   airControlFactor: 2.5

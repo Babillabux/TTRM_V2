@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
+using Inventory;
 
 public class Hand : MonoBehaviour
 {
-    [SerializeField] int _blockId;
     [SerializeField] float _reach;
 
     [Header("Raycast Block Detector")]
@@ -47,28 +47,63 @@ public class Hand : MonoBehaviour
 
     private void PlaceBlock()
     {
+        if(InventoryManager.instance._takenItemId != -100)
+        {
+            List<I_Content> contentQuantity = new List<I_Content>();
+
+            foreach (I_Content content in InventoryManager.instance.I_content)
+            {
+                if (content._id == InventoryManager.instance._takenItemId)
+                {
+                    contentQuantity.Add(content);
+                }
+            }
+
+            if (contentQuantity.Count > 0)
+            {
+                I_Content minQuantityContent = contentQuantity.OrderBy(content => content._quantity).FirstOrDefault();
+
+                if (minQuantityContent != null)
+                {
+                    foreach(I_Content content in InventoryManager.instance.I_content)
+                    {
+                        if(content == minQuantityContent)
+                        {
+                            BlockInstanciation(InventoryManager.instance._takenItemId);
+                            content._quantity--;
+                            InventoryManager.instance.UpdateHotbar(InventoryManager.instance._takenItemId);
+                            return;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    void BlockInstanciation(int id)
+    {
         GameObject block = Instantiate(WorldManager.instance._blocksRegistery._blockPrefab, _center, Quaternion.identity);
-        block.GetComponent<Block>().InitializeBlock(_blockId);
+        block.GetComponent<Block>().InitializeBlock(id);
 
         Vector3Int chunkPos = GetClosestChunkCoord(_center);
         GameObject _chunk = null;
 
-        foreach(var chunk in WorldManager.instance._chunkPosition)
+        foreach (var chunk in WorldManager.instance._chunkPosition)
         {
-            if(chunk.Key == chunkPos)
+            if (chunk.Key == chunkPos)
             {
                 _chunk = chunk.Value;
                 break;
             }
         }
 
-        if(_chunk != null)
+        if (_chunk != null)
         {
             block.transform.SetParent(_chunk.transform);
             _chunk.GetComponent<Chunk>()._blocks.Add(block);
         }
-
     }
+
 
     private void DestroyBlock()
     {
@@ -87,7 +122,6 @@ public class Hand : MonoBehaviour
             Destroy(blockHit);
         }
     }
-
 
     private Vector3Int GetClosestChunkCoord(Vector3 pos)
     {

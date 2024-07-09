@@ -4,6 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
+using Inventory;
 
 [CreateAssetMenu(fileName = "Items Registery", menuName = "Items/Items Data", order = 0)]
 public class ItemData : ScriptableObject

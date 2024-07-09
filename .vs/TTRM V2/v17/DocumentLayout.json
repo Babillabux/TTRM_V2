@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|c:\\users\\babil\\unityprojects\\ttrm v2\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\inventory\\inventorytile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorytile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\playercontroller\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\playercontroller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,24 +39,12 @@
       "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blocks\\blocksregistery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\playercontroller\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\items\\itemsregistery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\items\\itemsregistery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|C:\\Users\\babil\\UnityProjects\\TTRM V2\\assets\\scripts\\inventory\\inventorytile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorytile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|c:\\users\\babil\\unityprojects\\ttrm v2\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B495725-2139-29EF-5099-24368A4E024A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\Hand.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\Hand.cs",
+              "ToolTip": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\Hand.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\Hand.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T17:46:35.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAmwIUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:49:22.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InventoryTile.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Inventory\\InventoryTile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryTile.cs",
@@ -72,19 +98,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "InventoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
-              "ToolTip": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:49:22.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ItemsRegistery.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Items\\ItemsRegistery.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\ItemsRegistery.cs",
@@ -92,12 +105,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Items\\ItemsRegistery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:09:03.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T13:09:03.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Items\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\ItemData.cs",
@@ -105,25 +117,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Items\\ItemData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T12:51:31.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T12:51:31.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Hand.cs",
-              "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\Hand.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\Hand.cs",
-              "ToolTip": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\Hand.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController\\Hand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T17:46:35.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BlocksRegistery.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Blocks\\BlocksRegistery.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blocks\\BlocksRegistery.cs",
@@ -131,12 +129,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Blocks\\BlocksRegistery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T12:53:20.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T12:53:20.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WorldManager.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\World\\WorldManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\World\\WorldManager.cs",
@@ -144,12 +141,11 @@
               "RelativeToolTip": "Assets\\Scripts\\World\\WorldManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:21:14.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T11:21:14.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BlockData.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Blocks\\BlockData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blocks\\BlockData.cs",
@@ -157,12 +153,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Blocks\\BlockData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:22:52.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:22:52.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Chunk.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\World\\Chunk.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\World\\Chunk.cs",
@@ -170,12 +165,11 @@
               "RelativeToolTip": "Assets\\Scripts\\World\\Chunk.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T12:49:14.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T12:49:14.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Block.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\Blocks\\Block.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blocks\\Block.cs",
@@ -183,21 +177,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Blocks\\Block.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T11:40:54.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T11:40:54.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController\\PlayerController.cs",
               "ToolTip": "C:\\Users\\babil\\UnityProjects\\TTRM V2\\Assets\\Scripts\\PlayerController\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAABfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T16:00:14.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T16:00:14.23Z"
             }
           ]
         }

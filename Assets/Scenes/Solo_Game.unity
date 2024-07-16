@@ -686,6 +686,7 @@ MonoBehaviour:
   _hotbarImage: {fileID: 696655094}
   _hotbarQuantity: {fileID: 1467578811}
   _hotbarName: {fileID: 60700047}
+  _takenItemId: 0
 --- !u!1 &490582644
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +797,7 @@ MonoBehaviour:
   _playerPrefab: {fileID: 7814600631822957351, guid: 30bef2874b245744c8953224497db579, type: 3}
   _chunkPrefab: {fileID: 2355764877701008097, guid: 9c5be332dbd036d4eb225e2d3d051d3f, type: 3}
   _player: {fileID: 0}
-  _chunkSize: 10
+  _chunkSize: 5
   _renderDistance: 5
   _chunkMaxLayer: 10
   _seed: 657354
@@ -983,10 +984,10 @@ RectTransform:
   - {fileID: 1726240391}
   m_Father: {fileID: 401299438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -340, y: -200}
+  m_SizeDelta: {x: 846, y: 442}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &947755181
 MonoBehaviour:

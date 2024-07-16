@@ -53,7 +53,7 @@ public class Chunk : MonoBehaviour
             }
         }
 
-        CombineMeshes();
+        //CombineMeshes();
         _canRunProgram = true;
     }
 
@@ -67,6 +67,7 @@ public class Chunk : MonoBehaviour
         _blocks.Add(block);
     }
 
+    /*
     private void CombineMeshes()
     {
         List<MeshRenderer> meshRenderers = new List<MeshRenderer>();
@@ -127,7 +128,9 @@ public class Chunk : MonoBehaviour
 
         _isCombined = true;
     }
+    */
 
+    /*
     private void SeparateMeshes()
     {
         if (_combinedMeshFilter != null)
@@ -153,7 +156,9 @@ public class Chunk : MonoBehaviour
 
         _isCombined = false;
     }
+    */
 
+    /*
     private void FixedUpdate()
     {
         if (_canRunProgram)
@@ -171,4 +176,5 @@ public class Chunk : MonoBehaviour
             }
         }
     }
+    */
 }
